@@ -1,0 +1,30 @@
+{
+  "name": "codecademy_x-press-publishing",
+  "version": "1.0.0",
+  "description": "In this project, you will build a complete API using Express.js and SQLite for an internal management tool for a comic book publishing company: X-Press Publishing.",
+  "main": "app.js",
+  "repository": "git@github.com:phantware/codecademy_x-press-publishing.git",
+  "author": "Ismail Jamiu Babatunde",
+  "license": "MIT",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.1.2",
+    "random-flat-colors": "^1.0.6",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0",
+    "save-dev": "^0.0.1-security",
+    "sqlite3": "^4.2.0",
+    "supertest": "^4.0.2",
+    "whatwg-fetch": "^3.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "babel": "^6.23.0",
+    "babel-loader": "^8.1.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "webpack": "^4.43.0"
+  }
+}
