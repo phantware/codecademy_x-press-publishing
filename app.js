@@ -12,6 +12,14 @@ app.use(cors());
 const PORT = process.env.PORT || 4000;
 
 app.use("/api", apiRouter);
+app.get("/", (req, res) => {
+  res.status(200).json({
+    message: `You are welcome to express publishing.
+
+  This project is built using my knowledge of Express.js and SQLite for an internal management tool for a comic book publishing company: X-Press Publishing.
+  `,
+  });
+});
 
 app.listen(PORT, console.log(`App is listening at ${PORT}`));
 
