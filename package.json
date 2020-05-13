@@ -3,12 +3,20 @@
   "version": "1.0.0",
   "description": "In this project, you will build a complete API using Express.js and SQLite for an internal management tool for a comic book publishing company: X-Press Publishing.",
   "main": "app.js",
+  "scripts": {
+    "test": "mocha",
+    "start-dev": "nodemon app.js"
+  },
   "repository": "git@github.com:phantware/codecademy_x-press-publishing.git",
   "author": "Ismail Jamiu Babatunde",
   "license": "MIT",
   "dependencies": {
     "chai": "^4.2.0",
+    "cors": "^2.8.5",
+    "errorhandler": "^1.5.1",
+    "express": "^4.17.1",
     "mocha": "^7.1.2",
+    "morgan": "^1.10.0",
     "random-flat-colors": "^1.0.6",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
